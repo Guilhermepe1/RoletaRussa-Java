@@ -33,7 +33,7 @@ public class RoletaRussa {
             number = teclado.nextInt();
             System.out.println("---------------------------------------");
 
-            random = aleatorio.nextInt(10 + 1); // Gera número aleatório de 0 10
+            random = aleatorio.nextInt(10 + 1); // Gera número aleatório de 0 a 10
             System.out.println(random);
 
             if (random == number) {
